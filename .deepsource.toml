@@ -8,15 +8,11 @@ exclude_patterns = [
 ]
 
 [[analyzers]]
-name = "python"
-enabled = true
-
-  [analyzers.meta]
-  runtime_version = "3.x.x"
-
-[[analyzers]]
 name = "javascript"
 enabled = true
 
   [analyzers.meta]
-  runtime_env = ["browser"]
+  runtime_env = [
+    "browser",
+    "node"
+  ]
