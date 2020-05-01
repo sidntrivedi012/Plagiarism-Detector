@@ -1,9 +1,9 @@
 version = 1
 
 exclude_patterns = [
-    "/lib/*",
-    "/css/*",
-    "/public/*"
+    "lib/*",
+    "css/*",
+    "public/*"
 ]
 
 [[analyzers]]
