@@ -3,7 +3,8 @@ version = 1
 exclude_patterns = [
     "lib/*",
     "css/*",
-    "public/*"
+    "public/*",
+    "img/*"
 ]
 
 [[analyzers]]
@@ -12,6 +13,6 @@ enabled = true
 
   [analyzers.meta]
   runtime_env = [
-    "browser",
-    "node"
+    "node",
+    "browser"
   ]
